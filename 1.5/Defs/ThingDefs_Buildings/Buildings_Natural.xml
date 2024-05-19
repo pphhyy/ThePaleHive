@@ -124,6 +124,19 @@
       </damageData>
     </graphicData>
   </ThingDef>-->
+  
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>TunnelPaleHiveSpawner</defName>
+    <label>tunnel</label>
+    <thingClass>PphhyyInsects.TunnelPaleHiveSpawner</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <alwaysFlee>true</alwaysFlee>
+    <building>
+      <groundSpawnerSustainedEffecter>EmergencePointSustained2X2</groundSpawnerSustainedEffecter>
+      <groundSpawnerCompleteEffecter>EmergencePointComplete2X2</groundSpawnerCompleteEffecter>
+    </building>
+  </ThingDef>
 
 </Defs>
 

@@ -1,0 +1,4 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PphhyyInsects\obj\Debug\PphhyyInsects.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PphhyyInsects\obj\Debug\PphhyyInsects.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PphhyyInsects\obj\Debug\PphhyyInsects.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ThePaleHive\1.5\Assemblies\PphhyyInsects.dll

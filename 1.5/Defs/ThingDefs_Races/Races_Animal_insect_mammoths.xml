@@ -85,27 +85,27 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/PaleMegaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/PaleLarva</texPath>
           <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider_east</texPath>
+          <texPath>Common/Textures/Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/PaleMegaspider</texPath>
+          <texPath>Common/Textures/Animals/TunnelerMammoth/PaleTunnelerMammoth</texPath>
           <drawSize>1.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider_east</texPath>
+          <texPath>Common/Textures/Animals/TunnelerMammoth/Dessicated_TunnelerMammoth</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/PaleMegaspider</texPath>
+          <texPath>Common/Textures/Animals/TunnelerMammoth/PaleTunnelerMammoth</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
@@ -113,7 +113,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider_east</texPath>
+          <texPath>Common/Textures/Animals/TunnelerMammoth/Dessicated_TunnelerMammoth</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>

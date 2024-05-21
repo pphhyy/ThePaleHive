@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef ParentName="FactionBase">
+    <defName>PaleInsect</defName>
+    <label>pale insect geneline</label>
+    <description>These giant insect-like creatures live underground and burrow up to attack when attracted by noise or pheromone signals. Originally from the planet Sorne, interstellar entrepreneurs managed to capture, genetically-modify, and vat-grow the insect colonies for use as weapons. It's not clear who placed Sorne insects on this planet, but they are here and as dangerous as ever.</description>
+    <pawnSingular>pale insect</pawnSingular>
+    <pawnsPlural>pale insects</pawnsPlural>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <fixedName>Pale Geneline</fixedName>
+    <factionIconPath>World/WorldObjects/Expanding/Insects</factionIconPath>
+    <colorSpectrum>
+      <li>(0.44, 0.41, 0.32)</li>
+      <li>(0.61, 0.58, 0.49)</li>
+      <li>(0.60, 0.49, 0.36)</li>
+    </colorSpectrum>
+    <raidCommonalityFromPointsCurve>
+      <points>
+        <li>(0, 0)</li>
+      </points>
+    </raidCommonalityFromPointsCurve>
+    <humanlikeFaction>false</humanlikeFaction>
+    <hidden>true</hidden>
+    <autoFlee>false</autoFlee>
+    <canUseAvoidGrid>false</canUseAvoidGrid>
+    <techLevel>Animal</techLevel>
+    <permanentEnemyToEveryoneExcept>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Entities</li>
+    </permanentEnemyToEveryoneExcept>
+    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <allowedArrivalTemperatureRange>0~45</allowedArrivalTemperatureRange>
+    <maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+    <configurationListOrderPriority>1000</configurationListOrderPriority>
+  </FactionDef>
+
+</Defs>

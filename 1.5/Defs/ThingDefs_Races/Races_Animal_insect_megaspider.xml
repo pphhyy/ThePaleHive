@@ -84,27 +84,27 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/PaleMegaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/PaleLarva</texPath>
           <drawSize>1.2</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider_east</texPath>
+          <texPath>Common/Textures/Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/PaleMegaspider</texPath>
+          <texPath>Common/Textures/Animals/Megaspider/PaleMegaspider</texPath>
           <drawSize>1.6</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider_east</texPath>
+          <texPath>Common/Textures/Animals/Megaspider/Dessicated_Megaspider_east</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/PaleMegaspider</texPath>
+          <texPath>Common/Textures/Animals/Megaspider/PaleMegaspider</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
@@ -112,7 +112,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider_east</texPath>
+          <texPath>Common/Textures/Animals/Megaspider/Dessicated_Megaspider_east</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -214,29 +214,29 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/PaleLarva</texPath>
           <drawSize>1.2</drawSize>
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/NurserySpider/PaleNurserySpider</texPath>
           <drawSize>1.6</drawSize>
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/NurserySpider/Dessicated_NurserySpider</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/NurserySpider/PaleNurserySpider</texPath>
           <drawSize>2.5</drawSize>
           <color>(154,125,94)</color>
           <shadowData>
@@ -245,7 +245,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/NurserySpider/Dessicated_NurserySpider</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -335,29 +335,29 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/PaleLarva</texPath>
           <drawSize>1.2</drawSize>
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/AcidSpider/PaleAcidSpider</texPath>
           <drawSize>1.6</drawSize>
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/AcidSpider/Dessicated_AcidSpider</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/AcidSpider/PaleAcidSpider</texPath>
           <drawSize>2.5</drawSize>
           <color>(154,125,94)</color>
           <shadowData>
@@ -366,7 +366,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/AcidSpider/Dessicated_AcidSpider</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -456,29 +456,29 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/PaleLarva</texPath>
           <drawSize>1.2</drawSize>
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/WarriorSpider/PaleWarriorSpider</texPath>
           <drawSize>1.6</drawSize>
           <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/WarriorSpider/Dessicated_WarriorSpider</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Common/Textures/Animals/WarriorSpider/PaleWarriorSpider</texPath>
           <drawSize>2.5</drawSize>
           <color>(154,125,94)</color>
           <shadowData>
@@ -487,7 +487,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Common/Textures/Animals/WarriorSpider/Dessicated_WarriorSpider</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>

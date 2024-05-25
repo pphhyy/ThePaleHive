@@ -4,24 +4,24 @@
   <ThingDef ParentName="BuildingNaturalBase">
     <defName>PaleHive</defName>
     <label>pale hive</label>
-    <description>A hive of giant insects. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly.</description>
+    <description>A small hole connecting to some unseen cave network deep beneath the surface.</description>
     <thingClass>Hive</thingClass>
     <graphicData>
-      <texPath>Things/Building/Natural/PaleHive</texPath>
+      <texPath>Things/Building/Natural/PaleHiveTunnel</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <drawSize>1.6</drawSize>
     </graphicData>
     <uiIconScale>0.65</uiIconScale>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
     <rotatable>false</rotatable>
     <fillPercent>0.5</fillPercent>
     <statBases>
       <MaxHitPoints>130</MaxHitPoints>
-      <Flammability>1.0</Flammability>
+      <Flammability>0</Flammability>
     </statBases>
     <pathCost>42</pathCost>
     <receivesSignals>true</receivesSignals>
-    <blockWind>true</blockWind>
+    <blockWind>false</blockWind>
     <tickerType>Normal</tickerType>
     <passability>PassThroughOnly</passability>
     <killedLeavings>
@@ -43,9 +43,9 @@
         <initialPawnsPoints>200</initialPawnsPoints>
         <maxSpawnedPawnsPoints>500</maxSpawnedPawnsPoints>
       </li>
-      <li Class="CompProperties_SelfhealHitpoints">
-        <ticksPerHeal>6000</ticksPerHeal> <!-- 60k ticks = 1 day, 10 hp per day -->
-      </li>
+      <!--<li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>6000</ticksPerHeal>
+      </li>-->
       <li Class="CompProperties_SpawnerHives" />
       <li Class="CompProperties_Spawner">
         <thingToSpawn>InsectJelly</thingToSpawn>
@@ -55,7 +55,7 @@
         <spawnForbidden>true</spawnForbidden>
         <saveKeysPrefix>jelly</saveKeysPrefix>
       </li>
-      <li Class="CompProperties_Spawner">
+      <!--<li Class="CompProperties_Spawner">
         <thingToSpawn>GlowPod</thingToSpawn>
         <spawnCount>1</spawnCount>
         <spawnIntervalRange>30000~60000</spawnIntervalRange>
@@ -77,8 +77,13 @@
         <ticksHealthy>60000</ticksHealthy>
         <ticksNeedsMaintenance>60000</ticksNeedsMaintenance>
         <damagePerTickRare>10</damagePerTickRare>
+      </li>-->
+	  <li Class="CompProperties_LeaveFilthOnDestroyed">
+        <filthDef>Filth_LooseGround</filthDef>
+        <thickness>5</thickness>
       </li>
     </comps>
+	<canOverlapZones>false</canOverlapZones>
   </ThingDef>
 
   <!--<ThingDef ParentName="BuildingNaturalBase">

@@ -90,27 +90,27 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/PaleSpelopede</texPath>
+          <texPath>Animals/Larva/PaleLarva</texPath>
           <drawSize>1</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/PaleSpelopede</texPath>
+          <texPath>Animals/Spelopede/PaleSpelopede</texPath>
           <drawSize>1.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/Spelopede/Dessicated_Spelopede</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/PaleSpelopede</texPath>
+          <texPath>Animals/Spelopede/PaleSpelopede</texPath>
           <drawSize>1.65</drawSize>
           <shadowData>
             <volume>(0.4, 0.5, 0.37)</volume>
@@ -118,7 +118,7 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/Spelopede/Dessicated_Spelopede</texPath>
           <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -216,38 +216,35 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Animals/Larva/PaleLarva</texPath>
           <drawSize>1.2</drawSize>
-          <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Animals/SilkSpelopede/PaleSilkSpelopede</texPath>
           <drawSize>1.6</drawSize>
-          <color>(154,125,94)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Animals/SilkSpelopede/Dessicated_SilkSpelopede_east</texPath>
           <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Megaspider</texPath>
+          <texPath>Animals/SilkSpelopede/PaleSilkSpelopede</texPath>
           <drawSize>2.5</drawSize>
-          <color>(154,125,94)</color>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+          <texPath>Animals/SilkSpelopede/Dessicated_SilkSpelopede_east</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -343,38 +340,35 @@
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Spelopede</texPath>
+          <texPath>Animals/Larva/PaleLarva</texPath>
           <drawSize>1</drawSize>
-          <color>(156,148,125)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Spelopede</texPath>
+          <texPath>Animals/Spelopede/PaleSpelopede</texPath>
           <drawSize>1.25</drawSize>
-          <color>(156,148,125)</color>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/Spelopede/Dessicated_Spelopede</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Spelopede</texPath>
+          <texPath>Animals/Spelopede/PaleSpelopede</texPath>
           <drawSize>1.65</drawSize>
-          <color>(156,148,125)</color>
           <shadowData>
             <volume>(0.4, 0.5, 0.37)</volume>
             <offset>(0,0,-0.15)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/Spelopede/Dessicated_Spelopede</texPath>
           <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>

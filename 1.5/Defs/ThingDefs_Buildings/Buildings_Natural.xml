@@ -37,6 +37,7 @@
         <spawnablePawnKinds>
           <li>PaleMegaspider</li>
           <li>PaleSpelopede</li>
+		  <li>PaleHunterScarab</li>
         </spawnablePawnKinds>
         <lordJob>LordJob_DefendAndExpandHive</lordJob>
         <spawnSound>Hive_Spawn</spawnSound>

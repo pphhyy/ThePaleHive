@@ -128,10 +128,11 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+</Defs>
 
-  <!-- megascarab -->
+<!-- megascarab -->
 
-  <ThingDef ParentName="BaseInsect">
+  <!--<ThingDef ParentName="BaseInsect">
     <defName>Megascarab</defName>
     <label>megascarab</label>
     <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
@@ -220,7 +221,7 @@
         <bodyGraphicData>
           <texPath>Animal/Larva/PaleLarva</texPath>
           <drawSize>1</drawSize>
-          <!-- <color>(114,107,84)</color> -->
+
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animal/Larva/Dessicated_Larva</texPath>
@@ -231,7 +232,6 @@
         <bodyGraphicData>
           <texPath>Animal/Megascarab/Megascarab</texPath>
           <drawSize>1.25</drawSize>
-          <!-- <color>(114,107,84)</color> -->
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animal/Megascarab/Dessicated_Megascarab</texPath>
@@ -242,7 +242,6 @@
         <bodyGraphicData>
           <texPath>Animal/Megascarab/Megascarab</texPath>
           <drawSize>1.5</drawSize>
-          <!-- <color>(114,107,84)</color> -->
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
             <offset>(0,0,0)</offset>
@@ -254,6 +253,4 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>
-  
-</Defs>
+  </PawnKindDef>-->

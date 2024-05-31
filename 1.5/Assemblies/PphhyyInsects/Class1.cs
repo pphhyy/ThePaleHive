@@ -129,7 +129,7 @@ namespace PphhyyInsects
         }
     }
     [StaticConstructorOnStartup]
-    public class TunnelPaleHiveSpawner : GroundSpawner //thing class of the hole that becomes a pale hive
+    public class TunnelPaleHiveSpawner : GroundSpawner //thing class of the hole that opens to become a pale hive
     {
         public bool spawnHive = true;
 

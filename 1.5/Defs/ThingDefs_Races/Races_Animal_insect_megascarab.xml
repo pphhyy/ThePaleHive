@@ -128,9 +128,8 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-</Defs>
 
-<!-- megascarab -->
+  <!-- megascarab -->
 
   <ThingDef ParentName="BaseInsect">
     <defName>Megascarab</defName>
@@ -256,3 +255,5 @@
       </li>
     </lifeStages>
   </PawnKindDef>
+  
+</Defs>

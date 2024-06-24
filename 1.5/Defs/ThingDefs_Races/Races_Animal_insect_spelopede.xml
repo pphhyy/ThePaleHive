@@ -11,10 +11,21 @@
       <MoveSpeed>3.80</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
+      <LeatherAmount>40</LeatherAmount>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <MeleeDodgeChance>25</MeleeDodgeChance>
     </statBases>
+    <comps>
+      <li Class="CompProperties_Spawner">
+          <thingToSpawn>CeraAlba</thingToSpawn>
+          <spawnCount>10</spawnCount>
+          <spawnIntervalRange>200</spawnIntervalRange>
+          <spawnMaxAdjacent>100</spawnMaxAdjacent>
+          <spawnForbidden>false</spawnForbidden>
+          <saveKeysPrefix>jelly</saveKeysPrefix>
+        </li>
+      </comps>
     <uiIconScale>1.1</uiIconScale>
     <tools>
       <li>
@@ -22,9 +33,10 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>8</power>
-        <cooldownTime>2</cooldownTime>
+        <power>7</power>
+        <cooldownTime>2.1</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <armorPenetration>0.30</armorPenetration>
       </li>
       <li>
         <label>head</label>
@@ -32,18 +44,20 @@
           <li>Blunt</li>
         </capacities>
         <power>7</power>
-        <cooldownTime>2</cooldownTime>
+        <cooldownTime>2.1</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+        <armorPenetration>0.30</armorPenetration>
       </li>
     </tools>
     <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.25</baseHungerRate>
-      <baseBodySize>0.8</baseBodySize>
+      <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>1.7</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.3</wildness>
       <trainability>Advanced</trainability>
@@ -125,19 +139,19 @@
     </lifeStages>
   </PawnKindDef>
 
-  <!-- mega weaver -->
+  <!-- silk spelopede -->
   
   <ThingDef ParentName="BaseInsect">
-    <defName>PaleMegaWeaver</defName>
-    <label>pale mega weaver</label>
-    <description>its specific shaped shell can make them look like they are very deffensive insect, however its delicate body only purpose is to produce silk for the hive.</description>
+    <defName>PaleSilkSpelopede</defName>
+    <label>pale silk spelopede</label>
+    <description>PLACEHOLDER</description>
     <statBases>
       <MoveSpeed>2.50</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
-      <ArmorRating_Blunt>0.08</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+      <LeatherAmount>40</LeatherAmount>
+      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
 	<comps>
@@ -156,6 +170,7 @@
         <power>5</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <armorPenetration>0.05</armorPenetration>
       </li>
       <li>
         <label>head</label>
@@ -167,15 +182,17 @@
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+        <armorPenetration>0.05</armorPenetration>
       </li>
     </tools>
     <race>
 	  <packAnimal>false</packAnimal>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>0.8</baseBodySize>
+      <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>0.7</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.4</wildness>
       <trainability>None</trainability>
@@ -207,9 +224,9 @@
   </ThingDef>
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>PaleMegaWeaver</defName>
-    <label>pale mega weaver</label>
-    <race>PaleMegaWeaver</race>
+    <defName>PaleSilkSpelopede</defName>
+    <label>pale silk spelopede</label>
+    <race>PaleSilkSpelopede</race>
     <combatPower>10</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.10</ecoSystemWeight>
@@ -227,17 +244,17 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/SilkSpelopede/PaleSilkSpelopede</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/SilkSpelopede/Dessicated_SilkSpelopede_east</texPath>
-          <drawSize>1.6</drawSize>
+          <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Animals/SilkSpelopede/PaleSilkSpelopede</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>1.6</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -245,7 +262,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/SilkSpelopede/Dessicated_SilkSpelopede_east</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>1.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -261,7 +278,7 @@
       <MoveSpeed>4.2</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
+      <LeatherAmount>40</LeatherAmount>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
     </statBases>
@@ -272,29 +289,32 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>5</power>
+        <power>6</power>
         <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <armorPenetration>0.30</armorPenetration>
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>5.5</power>
+        <power>6</power>
         <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+        <armorPenetration>0.30</armorPenetration>
       </li>
     </tools>
     <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.25</baseHungerRate>
-      <baseBodySize>0.6</baseBodySize>
+      <baseBodySize>1.2</baseBodySize>
       <baseHealthScale>0.8</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>6</lifeExpectancy>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <wildness>0.3</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>

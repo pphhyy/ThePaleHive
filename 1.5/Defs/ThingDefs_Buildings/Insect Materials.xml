@@ -35,7 +35,7 @@
       </categories>
       <commonality>0.05</commonality>
 	  <appearance>Bricks</appearance>
-      <color>107,106,78)</color>
+      <color>(107,106,78)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
       <soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Stone</soundImpactMelee>
@@ -87,7 +87,7 @@
       </categories>
 	  <appearance>Metal</appearance>
       <commonality>0.05</commonality>
-      <color>147,120,90)</color>
+      <color>(147,120,90)</color>
       <constructEffect>ConstructMetal</constructEffect>
       <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
       <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>

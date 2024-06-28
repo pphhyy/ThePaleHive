@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <MVCF.ModDef>
+    <defName>pphhyy_AcidAttacks</defName>
+    <label>acid insectoids</label>
+    <description>Adding ranged attacks for acid creatures that need them</description>
+    <ActivateFeatures>
+      <li>RangedAnimals</li>
+      <li>HediffVerbs</li>
+      <li>IntegratedToggle</li>
+    </ActivateFeatures>
+  </MVCF.ModDef>
+  
 <!-- pale megaspider -->
 
   <ThingDef ParentName="BaseInsect">
@@ -11,9 +22,9 @@
       <MoveSpeed>4.0</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <LeatherAmount>26</LeatherAmount>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -25,6 +36,7 @@
         <power>15</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <armorPenetration>0.35</armorPenetration>
       </li>
       <li>
         <label>head</label>
@@ -36,15 +48,17 @@
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+        <armorPenetration>0.35</armorPenetration>
       </li>
     </tools>
     <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>1.2</baseBodySize>
+      <baseBodySize>2.6</baseBodySize>
       <baseHealthScale>2.5</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>6</lifeExpectancy>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
@@ -105,7 +119,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/Megaspider/PaleMegaspider</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -113,7 +127,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/Megaspider/Dessicated_Megaspider_east</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -129,9 +143,9 @@
       <MoveSpeed>2.0</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <LeatherAmount>26</LeatherAmount>
     </statBases>
 	<comps>
 	  <li Class="CompProperties_Spawner">
@@ -151,8 +165,9 @@
           <li>Cut</li>
         </capacities>
         <power>6</power>
-        <cooldownTime>3</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <armorPenetration>0.25</armorPenetration>
       </li>
       <li>
         <label>head</label>
@@ -160,19 +175,21 @@
           <li>Blunt</li>
         </capacities>
         <power>6</power>
-        <cooldownTime>3</cooldownTime>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+        <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
     <race>
 	  <packAnimal>false</packAnimal>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>1.2</baseBodySize>
+      <baseBodySize>2.6</baseBodySize>
       <baseHealthScale>2.5</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.4</wildness>
       <trainability>None</trainability>
@@ -235,7 +252,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/NurserySpider/PaleNurserySpider</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -243,7 +260,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/NurserySpider/Dessicated_NurserySpider</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -259,9 +276,9 @@
       <MoveSpeed>3.60</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
       <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <LeatherAmount>26</LeatherAmount>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -270,29 +287,50 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>4</power>
-        <cooldownTime>2.6</cooldownTime>
+        <power>6</power>
+        <cooldownTime>2.3</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <armorPenetration>0.30</armorPenetration>
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
+        <power>6</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+        <armorPenetration>0.30</armorPenetration>
       </li>
     </tools>
+    <verbs>
+      <li>
+          <verbClass>Verb_Shoot</verbClass>
+          <accuracyTouch>1</accuracyTouch>
+          <accuracyShort>1</accuracyShort>
+          <accuracyMedium>0</accuracyMedium>
+          <accuracyLong>0</accuracyLong>
+          <hasStandardCommand>true</hasStandardCommand>
+          <defaultProjectile>Acid_Aoe</defaultProjectile>
+          <forcedMissRadius>1.9</forcedMissRadius>
+          <warmupTime>2.3</warmupTime>
+          <burstShotCount>1</burstShotCount>
+          <minRange>1</minRange>
+          <range>12</range>
+          <label>short range</label>
+          <muzzleFlashScale>0</muzzleFlashScale>  
+      </li> 
+   </verbs>
     <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>1.2</baseBodySize>
+      <baseBodySize>2.6</baseBodySize>
       <baseHealthScale>2.5</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
       <lifeExpectancy>6</lifeExpectancy>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
       <lifeStageAges>
@@ -321,6 +359,31 @@
       <li>AnimalInsect</li>
     </tradeTags>
   </ThingDef>
+
+  <ThingDef ParentName="BaseGrenadeProjectile"> 
+    <defName>Acid_Aoe</defName>
+    <label>acid splash attack</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Grenade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(173,255,47)</color>
+    </graphicData>
+    <projectile>
+      <explosionRadius>1.9</explosionRadius >
+      <damageDef>Acid_Aoe</damageDef>
+      <!-- Use default damage from explosion def -->
+      <explosionDelay>0</explosionDelay>
+    </projectile>
+  </ThingDef>
+
+  <DamageDef ParentName="Bomb">
+  <defName>Acid_Aoe</defName>
+  <label>acid splash attack</label>
+  <defaultDamage>12</defaultDamage>
+  <soundExplosion>Explosion_Vaporize</soundExplosion>
+  </DamageDef>
+
 
   <PawnKindDef ParentName="AnimalKindBase">
     <defName>PaleAcidSpider</defName>
@@ -353,7 +416,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/AcidSpider/PaleAcidSpider</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.2</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -361,7 +424,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/AcidSpider/Dessicated_AcidSpider</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.2</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
@@ -377,9 +440,9 @@
       <MoveSpeed>3.60</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <LeatherAmount>26</LeatherAmount>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
     <tools>
@@ -388,28 +451,31 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>18</power>
-        <cooldownTime>2.6</cooldownTime>
+        <power>14</power>
+        <cooldownTime>2.3</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+        <armorPenetration>0.50</armorPenetration>
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
-        <cooldownTime>2</cooldownTime>
+        <power>14</power>
+        <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
+        <armorPenetration>0.50</armorPenetration>
       </li>
     </tools>
     <race>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
-      <baseBodySize>1.4</baseBodySize>
+      <baseBodySize>2.6</baseBodySize>
       <baseHealthScale>2.8</baseHealthScale>
       <meatLabel>insect meat</meatLabel>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <lifeExpectancy>6</lifeExpectancy>
       <wildness>0.4</wildness>
       <trainability>Advanced</trainability>
@@ -471,7 +537,7 @@
       <li>
         <bodyGraphicData>
           <texPath>Animals/WarriorSpider/PaleWarriorSpider</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.3</drawSize>
           <shadowData>
             <volume>(0.5, 0.7, 0.43)</volume>
             <offset>(0,0,-0.1)</offset>
@@ -479,7 +545,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Animals/WarriorSpider/Dessicated_WarriorSpider</texPath>
-          <drawSize>2.5</drawSize>
+          <drawSize>2.3</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>

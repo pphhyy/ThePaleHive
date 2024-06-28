@@ -6,15 +6,15 @@
   <ThingDef ParentName="BaseInsect">
     <defName>PaleHunterScarab</defName>
     <label>pale hunter scarab</label>
-    <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
+    <description>PLACEHOLDER</description>
     <statBases>
-      <MoveSpeed>4.00</MoveSpeed>
+      <MoveSpeed>5.00</MoveSpeed>
       <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
-	  <MeleeDodgeChance>15</MeleeDodgeChance>
+      <LeatherAmount>40</LeatherAmount>
+	  <MeleeDodgeChance>25</MeleeDodgeChance>
     </statBases>
     <uiIconScale>2</uiIconScale>
     <tools>
@@ -23,20 +23,22 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>5</power>
-        <cooldownTime>2</cooldownTime>
+        <power>4</power>
+        <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <armorPenetration>0.25</armorPenetration>
       </li>
       <li>
         <label>head</label>
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>2</power>
-        <cooldownTime>2</cooldownTime>
+        <power>3</power>
+        <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.1</chanceFactor>
+        <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
     <race>
@@ -46,6 +48,7 @@
       <baseHealthScale>0.35</baseHealthScale>
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <wildness>0.2</wildness>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
@@ -128,13 +131,13 @@
       </li>
     </lifeStages>
   </PawnKindDef>
-</Defs>
+
 
 <!-- megascarab -->
 
-  <!--<ThingDef ParentName="BaseInsect">
-    <defName>Megascarab</defName>
-    <label>megascarab</label>
+  <ThingDef ParentName="BaseInsect">
+    <defName>PaleMegascarab</defName>
+    <label>pale megascarab</label>
     <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
@@ -142,7 +145,7 @@
       <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
-      <LeatherAmount>0</LeatherAmount>
+      <LeatherAmount>40</LeatherAmount>
     </statBases>
     <uiIconScale>2</uiIconScale>
     <tools>
@@ -152,8 +155,9 @@
           <li>Bite</li>
         </capacities>
         <power>5</power>
-        <cooldownTime>1.8</cooldownTime>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+        <armorPenetration>0.25</armorPenetration>
       </li>
       <li>
         <label>head</label>
@@ -161,10 +165,11 @@
           <li>Blunt</li>
         </capacities>
         <power>4</power>
-        <cooldownTime>1.8</cooldownTime>
+        <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.1</chanceFactor>
+        <armorPenetration>0.25</armorPenetration>
       </li>
     </tools>
     <race>
@@ -175,6 +180,7 @@
       <useMeatFrom>Megaspider</useMeatFrom>
       <lifeExpectancy>10</lifeExpectancy>
       <wildness>0.2</wildness>
+      <leatherDef>PPHHYY_Chitin</leatherDef>
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
@@ -210,37 +216,37 @@
   </ThingDef>
   
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>Megascarab</defName>
-    <label>megascarab</label>
-    <race>Megascarab</race>
+    <defName>PaleMegascarab</defName>
+    <label>pale megascarab</label>
+    <race>PaleMegascarab</race>
     <combatPower>40</combatPower>
     <canArriveManhunter>false</canArriveManhunter>
     <ecoSystemWeight>0.15</ecoSystemWeight>
     <lifeStages>
       <li>
         <bodyGraphicData>
-          <texPath>Animal/Larva/PaleLarva</texPath>
+          <texPath>Animals/Larva/PaleLarva</texPath>
           <drawSize>1</drawSize>
 
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Animal/Larva/Dessicated_Larva</texPath>
+          <texPath>Animals/Larva/Dessicated_Larva</texPath>
           <drawSize>1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animal/Megascarab/Megascarab</texPath>
+          <texPath>Animals/Megascarab/PaleMegascarab</texPath>
           <drawSize>1.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Animal/Megascarab/Dessicated_Megascarab</texPath>
+          <texPath>Animals/Megascarab/Dessicated_Megascarab</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animal/Megascarab/Megascarab</texPath>
+          <texPath>Animals/Megascarab/PaleMegascarab</texPath>
           <drawSize>1.5</drawSize>
           <shadowData>
             <volume>(0.2, 0.3, 0.2)</volume>
@@ -248,9 +254,172 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Animal/Megascarab/Dessicated_Megascarab</texPath>
+          <texPath>Animals/Megascarab/Dessicated_Megascarab</texPath>
           <drawSize>1.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
-  </PawnKindDef>-->
+  </PawnKindDef>
+
+<!-- Acid Scarab -->
+
+<ThingDef ParentName="BaseInsect">
+  <defName>PaleAcidScarab</defName>
+  <label>pale acid scarab</label>
+  <description>PLACEHOLDER</description>
+  <statBases>
+    <MoveSpeed>3.75</MoveSpeed>
+    <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+    <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+    <ComfyTemperatureMin>0</ComfyTemperatureMin>
+    <MarketValue>100</MarketValue>
+    <LeatherAmount>40</LeatherAmount>
+  </statBases>
+  <uiIconScale>2</uiIconScale>
+  <tools>
+    <li>
+      <label>mandibles</label>
+      <capacities>
+        <li>Bite</li>
+      </capacities>
+      <power>5</power>
+      <cooldownTime>1.93</cooldownTime>
+      <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+      <armorPenetration>0.25</armorPenetration>
+    </li>
+    <li>
+      <label>head</label>
+      <capacities>
+        <li>Blunt</li>
+      </capacities>
+      <power>4</power>
+      <cooldownTime>1.93</cooldownTime>
+      <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+      <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      <chanceFactor>0.1</chanceFactor>
+      <armorPenetration>0.25</armorPenetration>
+    </li>
+  </tools>
+  <verbs>
+    <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <accuracyTouch>1</accuracyTouch>
+        <accuracyShort>1</accuracyShort>
+        <accuracyMedium>0</accuracyMedium>
+        <accuracyLong>0</accuracyLong>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>AcidScarab_Shot</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <burstShotCount>1</burstShotCount>
+        <minRange>1</minRange>
+        <range>11</range>
+        <label>short range</label>
+        <muzzleFlashScale>0</muzzleFlashScale>  
+    </li> 
+ </verbs>
+  <race>
+    <body>BeetleLike</body>
+    <baseBodySize>0.2</baseBodySize>
+    <baseHungerRate>0.10</baseHungerRate>
+    <baseHealthScale>0.35</baseHealthScale>
+    <useMeatFrom>Megaspider</useMeatFrom>
+    <lifeExpectancy>10</lifeExpectancy>
+    <leatherDef>PPHHYY_Chitin</leatherDef>
+    <wildness>0.2</wildness>
+    <trainability>Intermediate</trainability>
+    <lifeStageAges>
+      <li>
+        <def>EusocialInsectLarva</def>
+        <minAge>0</minAge>
+      </li>
+      <li>
+        <def>EusocialInsectJuvenile</def>
+        <minAge>0.03</minAge>
+      </li>
+      <li>
+        <def>EusocialInsectAdult</def>
+        <minAge>0.4</minAge>
+        <soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+        <soundDeath>Pawn_Megascarab_Death</soundDeath>
+        <soundCall>Pawn_Megascarab_Call</soundCall>
+        <soundAngry>Pawn_Megascarab_Angry</soundAngry>
+      </li>
+    </lifeStageAges>
+    <soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+    <soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+    <soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+    <headPosPerRotation>
+      <li>(0.0, 0, 0.12)</li>
+      <li>(0.07, 0, -0.05)</li>
+      <li>(0.0, 0, -0.08)</li>
+      <li>(-0.07, 0, -0.05)</li>
+    </headPosPerRotation>
+  </race>
+  <tradeTags>
+    <li>AnimalInsect</li>
+  </tradeTags>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+  <defName>AcidScarab_Shot</defName>
+  <label>little spit</label>
+  <graphicData>
+    <texPath>Things/Projectile/Bullet_Small</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <color>(173,255,47)</color>
+  </graphicData>
+  <projectile>
+    <damageDef>Bullet</damageDef>
+    <damageAmountBase>8</damageAmountBase>
+    <speed>50</speed>
+    <armorPenetrationBase>0.20</armorPenetrationBase>
+  </projectile>
+</ThingDef>
+
+<PawnKindDef ParentName="AnimalKindBase">
+  <defName>PaleAcidScarab</defName>
+  <label>pale acid scarab</label>
+  <race>PaleAcidScarab</race>
+  <combatPower>40</combatPower>
+  <canArriveManhunter>false</canArriveManhunter>
+  <ecoSystemWeight>0.15</ecoSystemWeight>
+  <lifeStages>
+    <li>
+      <bodyGraphicData>
+        <texPath>Animals/Larva/PaleLarva</texPath>
+        <drawSize>1</drawSize>
+
+      </bodyGraphicData>
+      <dessicatedBodyGraphicData>
+        <texPath>Animals/Larva/Dessicated_Larva</texPath>
+        <drawSize>1</drawSize>
+      </dessicatedBodyGraphicData>
+    </li>
+    <li>
+      <bodyGraphicData>
+        <texPath>Animals/AcidScarab/PaleAcidScarab</texPath>
+        <drawSize>1.25</drawSize>
+      </bodyGraphicData>
+      <dessicatedBodyGraphicData>
+        <texPath>Animals/AcidScarab/Dessicated_AcidScarab</texPath>
+        <drawSize>1.25</drawSize>
+      </dessicatedBodyGraphicData>
+    </li>
+    <li>
+      <bodyGraphicData>
+        <texPath>Animals/AcidScarab/PaleAcidScarab</texPath>
+        <drawSize>1.5</drawSize>
+        <shadowData>
+          <volume>(0.2, 0.3, 0.2)</volume>
+          <offset>(0,0,0)</offset>
+        </shadowData>
+      </bodyGraphicData>
+      <dessicatedBodyGraphicData>
+        <texPath>Animals/AcidScarab/Dessicated_AcidScarab</texPath>
+        <drawSize>1.5</drawSize>
+      </dessicatedBodyGraphicData>
+    </li>
+  </lifeStages>
+</PawnKindDef>
+
+</Defs>

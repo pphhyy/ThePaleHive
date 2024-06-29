@@ -22,8 +22,8 @@
       <MoveSpeed>4.0</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
@@ -143,15 +143,15 @@
       <MoveSpeed>2.0</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
     </statBases>
 	<comps>
 	  <li Class="CompProperties_Spawner">
         <thingToSpawn>InsectJelly</thingToSpawn>
         <spawnCount>100</spawnCount>
-        <spawnIntervalRange>180000</spawnIntervalRange>
+        <spawnIntervalRange>100000</spawnIntervalRange>
         <spawnMaxAdjacent>100</spawnMaxAdjacent>
         <spawnForbidden>false</spawnForbidden>
         <saveKeysPrefix>jelly</saveKeysPrefix>
@@ -276,8 +276,8 @@
       <MoveSpeed>3.60</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
@@ -440,8 +440,8 @@
       <MoveSpeed>3.60</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
       <LeatherAmount>26</LeatherAmount>
     </statBases>
     <uiIconScale>1.15</uiIconScale>

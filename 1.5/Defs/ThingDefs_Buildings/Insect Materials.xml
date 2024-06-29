@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+  <!-- Cera Alba -->
   
   <ThingDef ParentName="ResourceBase">
     <defName>CeraAlba</defName>
@@ -53,6 +55,8 @@
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
   
+ <!-- Chitin -->
+
     <ThingDef ParentName="ResourceBase">
     <defName>PPHHYY_Chitin</defName>
     <label>Chitin</label>
@@ -104,5 +108,40 @@
     </stuffProps>
     <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
+
+<!-- Insectoid Eggs -->
+
+<ThingDef ParentName="EggUnfertBase">
+  <defName>Insectoid_Egg</defName>
+  <label>insectoid egg</label>
+  <description>Eggs layed by the Queen</description>
+  <graphicData>
+    <color>(173,255,47)</color>
+  </graphicData>
+  <statBases>
+    <MarketValue>7.0</MarketValue>
+  </statBases>
+</ThingDef>
+
+<!-- Silk -->
+
+<ThingDef ParentName="WoolBase">
+  <defName>Silk</defName>
+  <label>silk</label>
+  <description>Silk produced by silk spelopedes</description>
+  <possessionCount>30</possessionCount>
+  <statBases>
+    <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+    <StuffPower_Insulation_Heat>10</StuffPower_Insulation_Heat>
+  </statBases>
+  <stuffProps>
+    <color>(219,214,209)</color>
+    <commonality>0.24</commonality>
+  </stuffProps>
+  <graphicData>
+    <color>(219,214,209)</color>
+  </graphicData>
+</ThingDef>
+
 
 </Defs>

@@ -9,8 +9,8 @@
     <description>PLACEHOLDER</description>
     <statBases>
       <MoveSpeed>5.00</MoveSpeed>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
       <LeatherAmount>40</LeatherAmount>
@@ -141,8 +141,8 @@
     <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
     <statBases>
       <MoveSpeed>3.75</MoveSpeed>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
       <MarketValue>100</MarketValue>
       <LeatherAmount>40</LeatherAmount>
@@ -269,8 +269,8 @@
   <description>PLACEHOLDER</description>
   <statBases>
     <MoveSpeed>3.75</MoveSpeed>
-    <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-    <ArmorRating_Sharp>0.72</ArmorRating_Sharp>
+    <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+    <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
     <ComfyTemperatureMin>0</ComfyTemperatureMin>
     <MarketValue>100</MarketValue>
     <LeatherAmount>40</LeatherAmount>

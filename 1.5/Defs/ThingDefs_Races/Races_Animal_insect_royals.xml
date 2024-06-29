@@ -12,20 +12,17 @@
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>5000</MarketValue>
       <LeatherAmount>24</LeatherAmount>
-      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.24</ArmorRating_Sharp>
     </statBases>
-	<comps>
-	  <li Class="CompProperties_Spawner">
-        <thingToSpawn>InsectJelly</thingToSpawn>
-        <spawnCount>100</spawnCount>
-        <spawnIntervalRange>200</spawnIntervalRange>
-        <spawnMaxAdjacent>100</spawnMaxAdjacent>
-        <spawnForbidden>false</spawnForbidden>
-        <saveKeysPrefix>jelly</saveKeysPrefix>
+    <uiIconScale>1.15</uiIconScale>
+    <comps>
+      <li Class="CompProperties_EggLayer">
+        <eggUnfertilizedDef>Insectoid_Egg</eggUnfertilizedDef>
+        <eggLayIntervalDays>0.5</eggLayIntervalDays>
+        <eggCountRange>1</eggCountRange>
       </li>
     </comps>
-    <uiIconScale>1.15</uiIconScale>
     <tools>
       <li>
         <label>head claw</label>
@@ -62,15 +59,15 @@
       <trainability>Intermediate</trainability>
       <lifeStageAges>
         <li>
-          <def>EusocialInsectLarva</def>
+          <def>AnimalBabyTiny</def>
           <minAge>0</minAge>
         </li>
         <li>
-          <def>EusocialInsectJuvenile</def>
+          <def>AnimalJuvenile</def>
           <minAge>0.03</minAge>
         </li>
         <li>
-          <def>EusocialInsectAdult</def>
+          <def>AnimalAdult</def>
           <minAge>0.2</minAge>
           <soundWounded>Pawn_BigInsect_Pain</soundWounded>
           <soundDeath>Pawn_BigInsect_Death</soundDeath>
@@ -144,8 +141,8 @@
       <MarketValue>4000</MarketValue>
       <LeatherAmount>26</LeatherAmount>
       <MeatAmount>100</MeatAmount>
-      <ArmorRating_Blunt>0.30</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.80</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.64</ArmorRating_Sharp>
 	  <ArmorRating_Heat>0.30</ArmorRating_Heat>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
@@ -266,8 +263,8 @@
     <ComfyTemperatureMin>-40</ComfyTemperatureMin>
     <MarketValue>5000</MarketValue>
     <LeatherAmount>24</LeatherAmount>
-    <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
-    <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+    <ArmorRating_Blunt>0.24</ArmorRating_Blunt>
+    <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
   </statBases>
   <uiIconScale>1.15</uiIconScale>
   <tools>

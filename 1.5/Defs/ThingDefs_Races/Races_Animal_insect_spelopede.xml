@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<!-- pale spelopede -->
+  <!-- pale spelopede -->
 
   <ThingDef ParentName="BaseInsect">
     <defName>PaleSpelopede</defName>
@@ -12,20 +12,20 @@
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
       <LeatherAmount>40</LeatherAmount>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
       <MeleeDodgeChance>25</MeleeDodgeChance>
     </statBases>
     <comps>
       <li Class="CompProperties_Spawner">
-          <thingToSpawn>CeraAlba</thingToSpawn>
-          <spawnCount>10</spawnCount>
-          <spawnIntervalRange>200</spawnIntervalRange>
-          <spawnMaxAdjacent>100</spawnMaxAdjacent>
-          <spawnForbidden>false</spawnForbidden>
-          <saveKeysPrefix>jelly</saveKeysPrefix>
-        </li>
-      </comps>
+        <thingToSpawn>CeraAlba</thingToSpawn>
+        <spawnCount>10</spawnCount>
+        <spawnIntervalRange>90000</spawnIntervalRange>
+        <spawnMaxAdjacent>100</spawnMaxAdjacent>
+        <spawnForbidden>false</spawnForbidden>
+        <saveKeysPrefix>jelly</saveKeysPrefix>
+      </li>
+    </comps>
     <uiIconScale>1.1</uiIconScale>
     <tools>
       <li>
@@ -140,7 +140,7 @@
   </PawnKindDef>
 
   <!-- silk spelopede -->
-  
+
   <ThingDef ParentName="BaseInsect">
     <defName>PaleSilkSpelopede</defName>
     <label>pale silk spelopede</label>
@@ -150,15 +150,15 @@
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <LeatherAmount>40</LeatherAmount>
-      <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.18</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.15</uiIconScale>
-	<comps>
+    <comps>
       <li Class="CompProperties_Shearable">
-        <woolDef>Cloth</woolDef>
+        <woolDef>Silk</woolDef>
         <shearIntervalDays>10</shearIntervalDays>
-        <woolAmount>45</woolAmount>
+        <woolAmount>25</woolAmount>
       </li>
     </comps>
     <tools>
@@ -186,7 +186,7 @@
       </li>
     </tools>
     <race>
-	  <packAnimal>false</packAnimal>
+      <packAnimal>false</packAnimal>
       <body>BeetleLikeWithClaw</body>
       <baseHungerRate>0.35</baseHungerRate>
       <baseBodySize>1.2</baseBodySize>
@@ -279,8 +279,8 @@
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
       <LeatherAmount>40</LeatherAmount>
-      <ArmorRating_Blunt>0.12</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.12</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.14</ArmorRating_Sharp>
     </statBases>
     <uiIconScale>1.1</uiIconScale>
     <tools>
@@ -370,17 +370,17 @@
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animals/Spelopede/PaleSpelopede</texPath>
+          <texPath>Animals/HunterSpelopede/PaleHunterSpelopede</texPath>
           <drawSize>1.25</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Animals/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/HunterSpelopede/Dessicated_HunterSpelopede</texPath>
           <drawSize>1.25</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Animals/Spelopede/PaleSpelopede</texPath>
+          <texPath>Animals/HunterSpelopede/PaleHunterSpelopede</texPath>
           <drawSize>1.65</drawSize>
           <shadowData>
             <volume>(0.4, 0.5, 0.37)</volume>
@@ -388,11 +388,11 @@
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Animals/Spelopede/Dessicated_Spelopede</texPath>
+          <texPath>Animals/HunterSpelopede/Dessicated_HunterSpelopede</texPath>
           <drawSize>1.65</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
   </PawnKindDef>
-  
+
 </Defs>

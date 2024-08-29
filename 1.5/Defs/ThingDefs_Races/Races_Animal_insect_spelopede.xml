@@ -344,6 +344,7 @@
         <li>(0.0, 0, -0.12)</li>
         <li>(-0.07, 0, 0.08)</li>
       </headPosPerRotation>
+      <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
     </race>
     <tradeTags>
       <li>AnimalInsect</li>
@@ -393,6 +394,9 @@
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
+    <abilities>
+      <li>PaleHive_InsectJump</li>
+    </abilities>
   </PawnKindDef>
 
 </Defs>

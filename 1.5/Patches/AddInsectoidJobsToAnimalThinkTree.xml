@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationInsert">
+		<xpath>Defs/ThinkTreeDef[defName="Animal"]/thinkRoot/subNodes/
+			li[@Class="ThinkNode_ConditionalHasFaction"]/subNodes/li
+			[subNodes/li/subNodes/li/subNodes/li/subNodes/li[@Class="JobGiver_Haul"]]
+		</xpath>
+			<!-- THIS FUCKING TEXPATH HELP -->
+		<value>
+			<!-- Trained behavior: Sow-->
+			<!-- Depends on Haul to be trained -->
+			<li Class="ThinkNode_ChancePerHour_Constant">
+				<mtbHours>0.1</mtbHours>
+				<subNodes>
+				  <li Class="ThinkNode_ConditionalRequireCapacities">
+					<requiredCapacities>
+					  <li>Manipulation</li>
+					</requiredCapacities>
+					<subNodes>
+					  <li Class="ThinkNode_ConditionalTrainableCompleted">
+						<trainable>Haul</trainable>
+						<subNodes>
+						  <li Class="ThinkNode_Tagger">
+							<tagToGive>TrainedAnimalBehavior</tagToGive>
+							<subNodes>
+							  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidSow" />
+							</subNodes>
+						  </li>
+						</subNodes>
+					  </li>
+					</subNodes>
+				  </li>
+				</subNodes>
+			</li>
+
+			<!-- Trained behavior: Harvest-->
+			<!-- Depends on Haul to be trained -->
+			<li Class="ThinkNode_ChancePerHour_Constant">
+				<mtbHours>0.1</mtbHours>
+				<subNodes>
+				  <li Class="ThinkNode_ConditionalRequireCapacities">
+					<requiredCapacities>
+					  <li>Manipulation</li>
+					</requiredCapacities>
+					<subNodes>
+					  <li Class="ThinkNode_ConditionalTrainableCompleted">
+						<trainable>Haul</trainable>
+						<subNodes>
+						  <li Class="ThinkNode_Tagger">
+							<tagToGive>TrainedAnimalBehavior</tagToGive>
+							<subNodes>
+							  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidHarvest" />
+							</subNodes>
+						  </li>
+						</subNodes>
+					  </li>
+					</subNodes>
+				  </li>
+				</subNodes>
+			</li>
+
+			<!-- Trained behavior: Mine-->
+			<!-- Depends on Haul to be trained -->
+			<li Class="ThinkNode_ChancePerHour_Constant">
+				<mtbHours>0.1</mtbHours>
+				<subNodes>
+				  <li Class="ThinkNode_ConditionalRequireCapacities">
+					<requiredCapacities>
+					  <li>Manipulation</li>
+					</requiredCapacities>
+					<subNodes>
+					  <li Class="ThinkNode_ConditionalTrainableCompleted">
+						<trainable>Haul</trainable>
+						<subNodes>
+						  <li Class="ThinkNode_Tagger">
+							<tagToGive>TrainedAnimalBehavior</tagToGive>
+							<subNodes>
+							  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidMine" />
+							</subNodes>
+						  </li>
+						</subNodes>
+					  </li>
+					</subNodes>
+				  </li>
+				</subNodes>
+			</li>
+
+			<!-- Trained behavior: deliver to blueprints-->
+			<!-- Depends on Haul to be trained -->
+			<li Class="ThinkNode_ChancePerHour_Constant">
+				<mtbHours>0.1</mtbHours>
+				<subNodes>
+				  <li Class="ThinkNode_ConditionalRequireCapacities">
+					<requiredCapacities>
+					  <li>Manipulation</li>
+					</requiredCapacities>
+					<subNodes>
+					  <li Class="ThinkNode_ConditionalTrainableCompleted">
+						<trainable>Haul</trainable>
+						<subNodes>
+						  <li Class="ThinkNode_Tagger">
+							<tagToGive>TrainedAnimalBehavior</tagToGive>
+							<subNodes>
+							  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidDeliverResourcesToBlueprints" />
+							</subNodes>
+						  </li>
+						</subNodes>
+					  </li>
+					</subNodes>
+				  </li>
+				</subNodes>
+			</li>
+
+			<!-- Trained behavior: deliver to frames-->
+			<!-- Depends on Haul to be trained -->
+			<li Class="ThinkNode_ChancePerHour_Constant">
+				<mtbHours>0.1</mtbHours>
+				<subNodes>
+				  <li Class="ThinkNode_ConditionalRequireCapacities">
+					<requiredCapacities>
+					  <li>Manipulation</li>
+					</requiredCapacities>
+					<subNodes>
+					  <li Class="ThinkNode_ConditionalTrainableCompleted">
+						<trainable>Haul</trainable>
+						<subNodes>
+						  <li Class="ThinkNode_Tagger">
+							<tagToGive>TrainedAnimalBehavior</tagToGive>
+							<subNodes>
+							  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidDeliverResourcesToFrames" />
+							</subNodes>
+						  </li>
+						</subNodes>
+					  </li>
+					</subNodes>
+				  </li>
+				</subNodes>
+			</li>
+
+			<!-- Trained behavior: Build frames-->
+			<!-- Depends on Haul to be trained -->
+			<li Class="ThinkNode_ChancePerHour_Constant">
+				<mtbHours>0.1</mtbHours>
+				<subNodes>
+				  <li Class="ThinkNode_ConditionalRequireCapacities">
+					<requiredCapacities>
+					  <li>Manipulation</li>
+					</requiredCapacities>
+					<subNodes>
+					  <li Class="ThinkNode_ConditionalTrainableCompleted">
+						<trainable>Haul</trainable>
+						<subNodes>
+						  <li Class="ThinkNode_Tagger">
+							<tagToGive>TrainedAnimalBehavior</tagToGive>
+							<subNodes>
+							  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidBuildFrames" />
+							</subNodes>
+						  </li>
+						</subNodes>
+					  </li>
+					</subNodes>
+				  </li>
+				</subNodes>
+			</li>
+		</value>
+	</Operation>
+
+	
+</Patch>

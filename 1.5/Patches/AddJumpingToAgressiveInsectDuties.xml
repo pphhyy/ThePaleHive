@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/DutyDef[defName="DefendHiveAggressively"]/thinkNode/subNodes/li[@Class="JobGiver_HiveDefense"]</xpath>
+        <value>
+            <li Class="ThinkNode_ConditionalHasAbility">
+                <ability>PaleHive_InsectJump</ability>
+                <subNodes>
+                  <li Class="PPhhyyInsectoidWork.JobGiver_JumpToEnemy">
+                    <ability>PaleHive_InsectJump</ability>
+                  </li>
+                </subNodes>
+            </li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationInsert">
+        <xpath>Defs/ThinkTreeDef[defName="MentalStateNonCritical"]/thinkRoot/subNodes/li[stateClass="MentalState_Manhunter"]/subNodes//li[@Class="JobGiver_Manhunter"]</xpath>
+        <value>
+            <li Class="ThinkNode_ConditionalHasAbility">
+                <ability>PaleHive_InsectJump</ability>
+                <subNodes>
+                  <li Class="PPhhyyInsectoidWork.JobGiver_JumpToEnemy">
+                    <ability>PaleHive_InsectJump</ability>
+                  </li>
+                </subNodes>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

@@ -25,6 +25,10 @@
 		<DebugSymbols>true</DebugSymbols>
 		<DebugType>portable</DebugType>
 		<ErrorReport>prompt</ErrorReport>
+		<NoWarn>
+			CA1000;CA1010;CA1304;CA1305;CA1310;CA1311;CA1707;CA1708;CA1710;CA1711;CA1715;CA1716;CA1720;CA1725;
+			CA1852;CA2201;CA3075;IDE0290
+		</NoWarn>
 		<WarningLevel>5</WarningLevel>
 	</PropertyGroup>
 

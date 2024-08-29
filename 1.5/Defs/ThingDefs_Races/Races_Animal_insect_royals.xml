@@ -322,6 +322,7 @@
     <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
     <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
     <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
   </race>
   <tradeTags>
     <li>AnimalInsect</li>
@@ -371,6 +372,9 @@
       </dessicatedBodyGraphicData>
     </li>
   </lifeStages>
+  <abilities>
+    <li>PaleHive_InsectJump</li>
+  </abilities>
 </PawnKindDef>
 
 

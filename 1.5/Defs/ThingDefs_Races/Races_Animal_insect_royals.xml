@@ -8,7 +8,7 @@
     <label>pale queen</label>
     <description>queen.</description>
     <statBases>
-      <MoveSpeed>1.60</MoveSpeed>
+      <MoveSpeed>1.8</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>5000</MarketValue>
       <LeatherAmount>24</LeatherAmount>
@@ -29,7 +29,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
+        <power>19</power>
         <cooldownTime>2.3</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.50</armorPenetration>
@@ -39,7 +39,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>15</power>
+        <power>19</power>
         <cooldownTime>2.3</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -136,7 +136,7 @@
     <label>pale titan</label>
     <description>PLACEHOLDER</description>
     <statBases>
-      <MoveSpeed>2.5</MoveSpeed>
+      <MoveSpeed>3</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>4000</MarketValue>
       <LeatherAmount>26</LeatherAmount>
@@ -152,7 +152,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>23</power>
+        <power>28</power>
         <cooldownTime>2.35</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.75</armorPenetration>
@@ -162,7 +162,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>23</power>
+        <power>28</power>
         <cooldownTime>2.35</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -259,7 +259,7 @@
   <label>pale prince consort</label>
   <description>PLACEHOLDER</description>
   <statBases>
-    <MoveSpeed>4</MoveSpeed>
+    <MoveSpeed>4.4</MoveSpeed>
     <ComfyTemperatureMin>-40</ComfyTemperatureMin>
     <MarketValue>5000</MarketValue>
     <LeatherAmount>24</LeatherAmount>
@@ -273,7 +273,7 @@
       <capacities>
         <li>Cut</li>
       </capacities>
-      <power>19</power>
+      <power>24</power>
       <cooldownTime>1.95</cooldownTime>
       <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
       <armorPenetration>0.50</armorPenetration>
@@ -283,7 +283,7 @@
       <capacities>
         <li>Blunt</li>
       </capacities>
-      <power>19</power>
+      <power>24</power>
       <cooldownTime>1.95</cooldownTime>
       <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

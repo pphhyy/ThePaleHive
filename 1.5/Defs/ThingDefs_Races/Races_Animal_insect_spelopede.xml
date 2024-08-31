@@ -8,7 +8,7 @@
     <label>pale spelopede</label>
     <description>A medium-sized bioengineered insectoid the size of a sheep. The pale spelopede is the middle caste of a hive, taking care of most work tasks as well as fighting with its digging claws. It's dangerous in combat, but slow on open ground.</description>
     <statBases>
-      <MoveSpeed>3.80</MoveSpeed>
+      <MoveSpeed>4.1</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
       <LeatherAmount>40</LeatherAmount>
@@ -33,7 +33,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>7</power>
+        <power>12</power>
         <cooldownTime>2.1</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.30</armorPenetration>
@@ -43,7 +43,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>7</power>
+        <power>12</power>
         <cooldownTime>2.1</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -146,7 +146,7 @@
     <label>pale silk spelopede</label>
     <description>PLACEHOLDER</description>
     <statBases>
-      <MoveSpeed>2.50</MoveSpeed>
+      <MoveSpeed>2.90</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <LeatherAmount>40</LeatherAmount>
@@ -167,7 +167,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>5</power>
+        <power>9</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.05</armorPenetration>
@@ -177,7 +177,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
+        <power>8</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -275,7 +275,7 @@
     <label>pale hunter spelopede</label>
     <description>This spelopede is the cast of the hunter, those bit smaller than their common cousin are fast and quick hitters, that are hard to damage due their agility. Their main purpose is to hunt down everyone whos foolish enough to run.</description>
     <statBases>
-      <MoveSpeed>4.2</MoveSpeed>
+      <MoveSpeed>4.6</MoveSpeed>
       <ComfyTemperatureMin>-25</ComfyTemperatureMin>
       <MarketValue>200</MarketValue>
       <LeatherAmount>40</LeatherAmount>
@@ -289,7 +289,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>6</power>
+        <power>11</power>
         <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.30</armorPenetration>
@@ -299,7 +299,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
+        <power>11</power>
         <cooldownTime>0.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

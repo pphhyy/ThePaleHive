@@ -19,7 +19,7 @@
     <label>pale megaspider</label>
     <description>Not actually a spider, the megaspider is a genetically-engineered giant insectoid the size of a small bear. Designed for heavy work and combat, its thick chitinous armor makes it hard to kill, while its long ripper-blades make it deadly at close quarters. It is, however, quite slow in open terrain.</description>
     <statBases>
-      <MoveSpeed>4.0</MoveSpeed>
+      <MoveSpeed>4.4</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
@@ -33,7 +33,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>15</power>
+        <power>20</power>
         <cooldownTime>2.6</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.35</armorPenetration>
@@ -43,7 +43,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -140,7 +140,7 @@
     <label>pale nursery spider</label>
     <description>Not actually a spider, but the part of spider cast of the hive, its only purpose is to create insect jelly to feed other larvae, sustaining growing population of the hive colony.</description>
     <statBases>
-      <MoveSpeed>2.0</MoveSpeed>
+      <MoveSpeed>2.3</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
@@ -164,7 +164,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>6</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.25</armorPenetration>
@@ -174,7 +174,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
+        <power>12</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -273,7 +273,7 @@
     <label>pale acid spider</label>
     <description>Megaspider cast member, bio-engineered insectoid soldier with acid filled sack on its abdomen that can use it to spit acid right at its pray.</description>
     <statBases>
-      <MoveSpeed>3.60</MoveSpeed>
+      <MoveSpeed>3.9</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
@@ -287,7 +287,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>6</power>
+        <power>11</power>
         <cooldownTime>2.3</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.30</armorPenetration>
@@ -297,7 +297,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
+        <power>11</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -437,7 +437,7 @@
     <label>pale warrior spider</label>
     <description>Bigger version of megaspider whos only purpose is to deffend the hive, its big, beefy and very dangerous close combat, but less common than megaspider itself.</description>
     <statBases>
-      <MoveSpeed>3.60</MoveSpeed>
+      <MoveSpeed>3.9</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
@@ -451,7 +451,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>14</power>
+        <power>19</power>
         <cooldownTime>2.3</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.50</armorPenetration>
@@ -461,7 +461,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>14</power>
+        <power>19</power>
         <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

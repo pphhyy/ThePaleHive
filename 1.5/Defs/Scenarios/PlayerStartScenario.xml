@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+    <ScenarioDef>
+        <defName>pphhyy_PaleHiveBase</defName>
+        <label>PLACEHOLDER</label>
+        <description>PLACEHOLDER</description>
+        <scenario>
+          <summary>PLACEHOLDER</summary>
+          <playerFaction>
+            <def>PlayerFaction</def>
+            <factionDef>pphhyy_Pale_Hive_Colony</factionDef>
+          </playerFaction>
+          <parts>
+    
+            <!-- Config pages -->
+            <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+              <def>ConfigPage_ConfigureStartingPawns</def>
+              <pawnCount>2</pawnCount>
+              <pawnChoiceCount>8</pawnChoiceCount>
+            </li>
+    
+            <!-- Player starting stuff spawn method-->
+            <li Class="ScenPart_PlayerPawnsArriveMethod">
+              <def>PlayerPawnsArriveMethod</def>
+              <method>Standing</method>
+            </li>
+    
+            <!-- Player starting stuff -->
+    
+            <li Class="ScenPart_StartingAnimal">
+              <def>StartingAnimal</def>
+              <count>1</count>
+              <animalKind>PaleQueen</animalKind>
+            </li>
+            <li Class="ScenPart_StartingAnimal">
+              <def>StartingAnimal</def>
+              <count>2</count>
+              <animalKind>PaleSpelopede</animalKind>
+            </li>
+            <li Class="ScenPart_StartingAnimal">
+              <def>StartingAnimal</def>
+              <count>4</count>
+              <animalKind>PaleMegascarab</animalKind>
+            </li>
+            <li Class="ScenPart_StartingAnimal">
+              <def>StartingAnimal</def>
+              <count>1</count>
+              <animalKind>PaleNurserySpider</animalKind>
+            </li>
+          </parts>
+         </scenario> 
+         </ScenarioDef>      
+      
+         <FactionDef ParentName="PlayerFactionBase">
+          <defName>pphhyy_Pale_Hive_Colony</defName>
+          <label>New Arrivals</label>
+          <description>A colony of recently-arrived humans with pale hive insects.</description>
+          <isPlayer>true</isPlayer>
+          <basicMemberKind>Colonist</basicMemberKind>
+          <pawnSingular>colonist</pawnSingular>
+          <pawnsPlural>colonists</pawnsPlural>
+          <techLevel>Industrial</techLevel>
+          <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+          <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+          <allowedCultures><li>Rustican</li></allowedCultures>
+          <backstoryFilters>
+            <li>
+              <categories>
+                <li>Offworld</li>
+              </categories>
+            </li>
+          </backstoryFilters>
+          <factionIconPath>World/WorldObjects/Expanding/Insects</factionIconPath>
+          <startingResearchTags>
+            <li>ClassicStart</li>
+          </startingResearchTags>
+          <startingTechprintsResearchTags>
+            <li>ClassicStart</li>
+            <li>ClassicStartTechprints</li>
+          </startingTechprintsResearchTags>
+          <apparelStuffFilter>
+            <thingDefs>
+              <li>Synthread</li>
+            </thingDefs>
+          </apparelStuffFilter>
+        </FactionDef>
+
+
+
+</Defs>

@@ -9,8 +9,8 @@
         <thingClass>Building</thingClass>
         <category>Building</category>
         <graphicData>
-          <texPath>Things/Building/Linked/Wall</texPath>
-          <graphicClass>Graphic_Appearances</graphicClass>
+          <texPath>Things/Building/Linked/BugWall_Atlas</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
           <linkType>CornerFiller</linkType>
           <linkFlags>
             <li>Wall</li>
@@ -27,6 +27,7 @@
             <edgeRight>Damage/Edge</edgeRight>
           </damageData>
         </graphicData>
+        <uiIconPathsStuff Inherit="False"/>
         <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
         <statBases>
           <MaxHitPoints>300</MaxHitPoints>

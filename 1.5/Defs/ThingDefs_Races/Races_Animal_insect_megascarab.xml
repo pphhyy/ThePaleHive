@@ -8,7 +8,7 @@
     <label>pale hunter scarab</label>
     <description>PLACEHOLDER</description>
     <statBases>
-      <MoveSpeed>5.00</MoveSpeed>
+      <MoveSpeed>5.4</MoveSpeed>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -23,7 +23,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>4</power>
+        <power>7</power>
         <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <armorPenetration>0.25</armorPenetration>
@@ -33,7 +33,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>3</power>
+        <power>6</power>
         <cooldownTime>1.6</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -145,7 +145,7 @@
     <label>pale megascarab</label>
     <description>A large, genetically-engineered beetle. Once the worker caste of an artificial ecosystem of insectoids designed to fight mechanoid invasions, it is now often seen without its deadlier insectoid cousins. Still, its size and hard shell make it dangerous when it attacks. A eusocial creature, it cannot reproduce individually.</description>
     <statBases>
-      <MoveSpeed>3.75</MoveSpeed>
+      <MoveSpeed>4</MoveSpeed>
       <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
       <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -159,7 +159,7 @@
         <capacities>
           <li>Bite</li>
         </capacities>
-        <power>5</power>
+        <power>9</power>
         <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
         <armorPenetration>0.25</armorPenetration>
@@ -169,7 +169,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>4</power>
+        <power>8</power>
         <cooldownTime>1.9</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -274,7 +274,7 @@
   <label>pale acid scarab</label>
   <description>PLACEHOLDER</description>
   <statBases>
-    <MoveSpeed>3.75</MoveSpeed>
+    <MoveSpeed>4</MoveSpeed>
     <ArmorRating_Blunt>0.14</ArmorRating_Blunt>
     <ArmorRating_Sharp>0.57</ArmorRating_Sharp>
     <ComfyTemperatureMin>0</ComfyTemperatureMin>
@@ -288,7 +288,7 @@
       <capacities>
         <li>Bite</li>
       </capacities>
-      <power>5</power>
+      <power>9</power>
       <cooldownTime>1.93</cooldownTime>
       <linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
       <armorPenetration>0.25</armorPenetration>
@@ -298,7 +298,7 @@
       <capacities>
         <li>Blunt</li>
       </capacities>
-      <power>4</power>
+      <power>9</power>
       <cooldownTime>1.93</cooldownTime>
       <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
       <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -376,7 +376,7 @@
   </graphicData>
   <projectile>
     <damageDef>Bullet</damageDef>
-    <damageAmountBase>8</damageAmountBase>
+    <damageAmountBase>13</damageAmountBase>
     <speed>50</speed>
     <armorPenetrationBase>0.20</armorPenetrationBase>
   </projectile>

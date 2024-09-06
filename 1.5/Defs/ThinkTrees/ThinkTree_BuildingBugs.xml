@@ -272,6 +272,7 @@
 
                 <!-- Trained behavior: Build frames-->
                 <!-- Depends on Haul to be trained -->
+<<<<<<< HEAD:1.5/Defs/ThinkTrees/ThinkTree_BuildingBugs.xml
                 <li Class="ThinkNode_ConditionalRequireCapacities">
                   <requiredCapacities>
                     <li>Manipulation</li>
@@ -289,10 +290,35 @@
                       </subNodes>
                     </li>
                   </subNodes>
+=======
+                <li Class="ThinkNode_ChancePerHour_Constant">
+                    <mtbHours>0.1</mtbHours>
+                    <subNodes>
+                      <li Class="ThinkNode_ConditionalRequireCapacities">
+                        <requiredCapacities>
+                          <li>Manipulation</li>
+                        </requiredCapacities>
+                        <subNodes>
+                          <li Class="ThinkNode_ConditionalTrainableCompleted">
+                            <trainable>Haul</trainable>
+                            <subNodes>
+                              <li Class="ThinkNode_Tagger">
+                                <tagToGive>TrainedAnimalBehavior</tagToGive>
+                                <subNodes>
+                                  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidBuildFrames" />
+                                </subNodes>
+                              </li>
+                            </subNodes>
+                          </li>
+                        </subNodes>
+                      </li>
+                    </subNodes>
+>>>>>>> 4fbeeb947bd626e17f97586de971bcc17e503fac:1.5/Defs/ThinkTrees/ThinkTree_BuilderBugs.xml
                 </li>
 
                 <!-- Trained behavior: deliver to frames-->
                 <!-- Depends on Haul to be trained -->
+<<<<<<< HEAD:1.5/Defs/ThinkTrees/ThinkTree_BuildingBugs.xml
                 <li Class="ThinkNode_ConditionalRequireCapacities">
                   <requiredCapacities>
                     <li>Manipulation</li>
@@ -310,10 +336,35 @@
                       </subNodes>
                     </li>
                   </subNodes>
+=======
+                <li Class="ThinkNode_ChancePerHour_Constant">
+                    <mtbHours>0.1</mtbHours>
+                    <subNodes>
+                      <li Class="ThinkNode_ConditionalRequireCapacities">
+                        <requiredCapacities>
+                          <li>Manipulation</li>
+                        </requiredCapacities>
+                        <subNodes>
+                          <li Class="ThinkNode_ConditionalTrainableCompleted">
+                            <trainable>Haul</trainable>
+                            <subNodes>
+                              <li Class="ThinkNode_Tagger">
+                                <tagToGive>TrainedAnimalBehavior</tagToGive>
+                                <subNodes>
+                                  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidDeliverResourcesToFrames" />
+                                </subNodes>
+                              </li>
+                            </subNodes>
+                          </li>
+                        </subNodes>
+                      </li>
+                    </subNodes>
+>>>>>>> 4fbeeb947bd626e17f97586de971bcc17e503fac:1.5/Defs/ThinkTrees/ThinkTree_BuilderBugs.xml
                 </li>
 
                 <!-- Trained behavior: deliver to blueprints-->
                 <!-- Depends on Haul to be trained -->
+<<<<<<< HEAD:1.5/Defs/ThinkTrees/ThinkTree_BuildingBugs.xml
                 <li Class="ThinkNode_ConditionalRequireCapacities">
                   <requiredCapacities>
                     <li>Manipulation</li>
@@ -331,6 +382,30 @@
                       </subNodes>
                     </li>
                   </subNodes>
+=======
+                <li Class="ThinkNode_ChancePerHour_Constant">
+                    <mtbHours>0.1</mtbHours>
+                    <subNodes>
+                      <li Class="ThinkNode_ConditionalRequireCapacities">
+                        <requiredCapacities>
+                          <li>Manipulation</li>
+                        </requiredCapacities>
+                        <subNodes>
+                          <li Class="ThinkNode_ConditionalTrainableCompleted">
+                            <trainable>Haul</trainable>
+                            <subNodes>
+                              <li Class="ThinkNode_Tagger">
+                                <tagToGive>TrainedAnimalBehavior</tagToGive>
+                                <subNodes>
+                                  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidDeliverResourcesToBlueprints" />
+                                </subNodes>
+                              </li>
+                            </subNodes>
+                          </li>
+                        </subNodes>
+                      </li>
+                    </subNodes>
+>>>>>>> 4fbeeb947bd626e17f97586de971bcc17e503fac:1.5/Defs/ThinkTrees/ThinkTree_BuilderBugs.xml
                 </li>
 
                 <!-- Trained behavior: Haul-->

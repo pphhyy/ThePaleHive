@@ -8,7 +8,7 @@
     <label>pale tunneler</label>
     <description>PLACEHOLDER</description>
     <statBases>
-      <MoveSpeed>1.60</MoveSpeed>
+      <MoveSpeed>1.9</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <LeatherAmount>24</LeatherAmount>
@@ -22,7 +22,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>7</power>
+        <power>12</power>
         <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.50</armorPenetration>
@@ -32,7 +32,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>6</power>
+        <power>10</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -131,7 +131,7 @@
     <label>pale plasma mammoth</label>
     <description>PLACEHOLDER</description>
     <statBases>
-      <MoveSpeed>1.60</MoveSpeed>
+      <MoveSpeed>1.9</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>500</MarketValue>
       <LeatherAmount>24</LeatherAmount>
@@ -145,7 +145,7 @@
         <capacities>
           <li>Cut</li>
         </capacities>
-        <power>8</power>
+        <power>14</power>
         <cooldownTime>2.2</cooldownTime>
         <linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
         <armorPenetration>0.30</armorPenetration>
@@ -155,7 +155,7 @@
         <capacities>
           <li>Blunt</li>
         </capacities>
-        <power>9</power>
+        <power>15</power>
         <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>

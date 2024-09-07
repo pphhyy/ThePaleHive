@@ -9,7 +9,7 @@
         <thingClass>Building</thingClass>
         <category>Building</category>
         <graphicData>
-          <texPath>Things/Building/Linked/BugWall_Atlas</texPath>
+          <texPath>Things/Building/Linked/PaleBugWall_Atlas</texPath>
           <graphicClass>Graphic_Single</graphicClass>
           <linkType>CornerFiller</linkType>
           <linkFlags>

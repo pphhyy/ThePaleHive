@@ -267,28 +267,23 @@
 
                 <!-- Trained behavior: Mine-->
                 <!-- Depends on Haul to be trained -->
-                <li Class="ThinkNode_ChancePerHour_Constant">
-                    <mtbHours>0.1</mtbHours>
-                    <subNodes>
-                      <li Class="ThinkNode_ConditionalRequireCapacities">
-                        <requiredCapacities>
-                          <li>Manipulation</li>
-                        </requiredCapacities>
-                        <subNodes>
-                          <li Class="ThinkNode_ConditionalTrainableCompleted">
-                            <trainable>Haul</trainable>
-                            <subNodes>
-                              <li Class="ThinkNode_Tagger">
-                                <tagToGive>TrainedAnimalBehavior</tagToGive>
-                                <subNodes>
-                                  <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidMine" />
-                                </subNodes>
-                              </li>
-                            </subNodes>
-                          </li>
-                        </subNodes>
-                      </li>
-                    </subNodes>
+                <li Class="ThinkNode_ConditionalRequireCapacities">
+                  <requiredCapacities>
+                    <li>Manipulation</li>
+                  </requiredCapacities>
+                  <subNodes>
+                    <li Class="ThinkNode_ConditionalTrainableCompleted">
+                      <trainable>Haul</trainable>
+                      <subNodes>
+                        <li Class="ThinkNode_Tagger">
+                          <tagToGive>TrainedAnimalBehavior</tagToGive>
+                          <subNodes>
+                            <li Class="PPhhyyInsectoidWork.JobGiver_InsectoidMine" />
+                          </subNodes>
+                        </li>
+                      </subNodes>
+                    </li>
+                  </subNodes>
                 </li>
 
                 <!-- Trained behavior: Haul-->

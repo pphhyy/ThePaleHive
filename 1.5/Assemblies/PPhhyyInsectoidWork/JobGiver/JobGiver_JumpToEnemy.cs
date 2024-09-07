@@ -1,6 +1,4 @@
-﻿using Verse;
-
-namespace PPhhyyInsectoidWork
+﻿namespace PPhhyyInsectoidWork
 {
     public class JobGiver_JumpToEnemy : ThinkNode_JobGiver
     {
@@ -26,7 +24,7 @@ namespace PPhhyyInsectoidWork
             return null;
         }
 
-        public Pawn GetClosestEnemy(Pawn thisPawn)
+        public static Pawn GetClosestEnemy(Pawn thisPawn)
         {
             return (Pawn)AttackTargetFinder.BestAttackTarget(thisPawn,
                 TargetScanFlags.NeedThreat | TargetScanFlags.NeedAutoTargetable,
